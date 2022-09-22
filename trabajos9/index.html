@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <body>
+        <form action="formulario.php" method="post" name="formulario">
+            <label>
+              Apellido: <input type="text" name="apellido"> <br>
+            </label>
+            
+            <label>
+                Nombre: <input type="text" name="nombre"> <br>
+            </label>
+           
+            <label>
+                Dni: <input type="number" name="dni"> <br>
+            </label> 
+              
+            <label>
+                Fecha nacimiento: <input type="date" name="fecha_nacimiento"> <br> 
+            </label> 
+           
+            <p>Sexo:</p>
+           
+            <label>
+               <input type="radio" name="sexo" value="Masculino">  
+               Masculino 
+            </label>
+           
+            <label>
+                <input type="radio" name="sexo" value="Femenino">  
+                Femenino
+            </label>
+           <br>
+           <br>
+            <label>
+                Colores: <br>
+                Verde <input type="checkbox" name="color[]" value="verde"> <br>
+                Amarillo<input type="checkbox" name="color[]" value="amarillo"> <br>
+                Azul<input type="checkbox" name="color[]" value="azul"> <br>
+                Rojo<input type="checkbox" name="color[]" value="rojo"> <br>
+            </label>
+            <br>
+            <button type="submit">Enviar</button>
+
+        </form>
+    </body>
+</body>
+</html>
