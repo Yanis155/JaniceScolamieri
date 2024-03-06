@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 20vh; /* Ajusta la altura según tus necesidades */
+    
+}
+.center-table{
+    border: 2px solid black; /* Define el grosor y el color del borde */
+    border-collapse: collapse; /* Combina los bordes de las celdas */
+    /* Otros estilos opcionales */
+    width: 80%; /* Ancho de la tabla */
+    max-width: 600px; /* Ancho máximo de la tabla */
+    padding: 20px; /* Espacio interno de la tabla */
+}

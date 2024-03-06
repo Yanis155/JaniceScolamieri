@@ -11,8 +11,8 @@
     <title>Document</title>
 </head>
 <body>
-    <table border="3">
-
+    <table border="3" style="aling-center">
+        <br>
         <tr>
             <td> Id: </td>
             <td> Nombre: </td>
@@ -39,7 +39,8 @@
       <td> <?php echo $dni?> </td>
       <td> <?php echo $email?> </td>
      </tr>
-     <?php } ?>
+     <?php } 
+     ?>
     </table>
 
 </body>
